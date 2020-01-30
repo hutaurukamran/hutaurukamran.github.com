@@ -1,0 +1,16 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic;
+	color: white;
+}
+body {
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("2.png");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+img{
+	float: right;
+	margin: 5px;
+}

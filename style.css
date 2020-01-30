@@ -1,0 +1,124 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: century gothic;
+}
+header {
+	background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("3.png");
+	height: 630px;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	list-style-type: none;
+	float: left;
+
+	margin-left : 0px;
+	margin-top: 30px
+
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 50px;
+	border: 1px solid white;
+	
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}
+ul li.active a{
+	background-color:white;
+	color: black;
+}
+.main{
+	max-width: 1200px;
+	margin :auto;
+}
+.title{
+	position: absolute;
+	top: 25%;
+	left: 40%;
+	transform: translate(-32%,-50%);
+}
+.title h1 {
+	color : white;
+	font-size: 66px;
+	text-decoration: bold;
+}
+.button{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	color: orange;
+	transform: translate(-50%,-50%);
+}
+.btn{
+	border: 1px solid white;
+	padding: 10px 20px;
+	color: black;/*warna text didalam button*/
+	text-decoration: none;
+	
+
+}
+.btn:hover {
+	background-color: orange;
+	color: black;
+}
+/*pengaturan panjang kotak pencarian putih*/
+#search-box{
+	position: absolute;
+	top: 4%;
+	left: 78%;
+	right: 2%;
+	margin:0px;
+	margin-right: 0px;
+	border:1px solid #ccc;
+	border-radius:0px
+	padding:0px;
+	
+}
+	/*pengaturan kolom pencarian putih*/
+#search-form{
+	height:30px;
+	background-color:#fff;/*warna kotak pencarian*/
+	overflow:hidden
+	}
+
+#search-text{
+	font-size:14px;
+	color:#ddd;
+	border-width:0;
+	background:transparent;
+	line-height:15px;
+	}
+
+#search-box input[type="text"]{
+	width:90%;
+	/*pengaturan posisi text cari disini*/
+	padding:8px 0 5px 1em;
+	color:#333;
+	outline:none
+	}
+
+#search-button{
+	position:absolute;
+	top:0px;
+	right:0px;
+	height:30px;
+	width:80px;
+	color:#fff;
+	text-align:center;
+	border-width:0	;
+	background-color:#0099FF;
+	cursor:pointer;
+	text-transform:uppercase;
+	border-radius: 0px;
+	outline: 10px;
+	}
+
+#search-button:hover{background:}
